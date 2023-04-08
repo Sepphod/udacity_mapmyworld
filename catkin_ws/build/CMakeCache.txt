@@ -431,6 +431,12 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
+//Value Computed by CMake
+teleop_twist_keyboard_BINARY_DIR:STATIC=/home/workspace/udacity_whereami/catkin_ws/build/teleop_twist_keyboard
+
+//Value Computed by CMake
+teleop_twist_keyboard_SOURCE_DIR:STATIC=/home/workspace/udacity_whereami/catkin_ws/src/teleop_twist_keyboard
+
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
 

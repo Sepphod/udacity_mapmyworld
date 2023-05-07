@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/workspace/udacity_whereami/catkin_ws/install/setup.sh
+    local-name: /home/workspace/udacity_mapmyworld/catkin_ws/install/setup.sh

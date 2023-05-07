@@ -1,2 +1,2 @@
 set(ball_chaser_MESSAGE_FILES "")
-set(ball_chaser_SERVICE_FILES "/home/workspace/udacity_whereami/catkin_ws/src/ball_chaser/srv/DriveToTarget.srv")
+set(ball_chaser_SERVICE_FILES "/home/workspace/udacity_mapmyworld/catkin_ws/src/ball_chaser/srv/DriveToTarget.srv")

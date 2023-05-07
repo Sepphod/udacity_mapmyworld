@@ -191,11 +191,19 @@
     </visual>
   </link>
 
+  <joint type="fixed" name="camera_optical_joint">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <child link="camera_link_optical"/>
+    <parent link="camera_link"/>
+  </joint>
+
   <joint type="fixed" name="hokuyo_joint">
     <origin xyz="0.15 0 0.1" rpy="0 0 0"/>
     <child link="hokuyo"/>
     <parent link="chassis"/>
   </joint>
 
+  <link name="camera_link_optical">
+  </link>
 
 </robot>
